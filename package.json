@@ -1,0 +1,21 @@
+{
+  "name": "testing-library__cypress__bug",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/client"
+  ],
+  "scripts": {
+    "build": "wsrun build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^5.0.2",
+    "cypress": "^3.6.1",
+    "wsrun": "^5.0.2"
+  }
+}
